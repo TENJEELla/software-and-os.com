@@ -1,0 +1,121 @@
+body{
+    background-color:black;
+    text:white;
+    font-family:Monotype Corsiva;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+ul{
+    float: left;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    align-items: center;  
+}
+
+ul li{
+    list-style: none;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 30px;
+    
+}
+
+ul li a{
+    text-decoration:none ;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+}
+ul li a:hover{
+    color:red;
+}
+
+h1{
+    color:blue;
+    font-size: 40px;
+    text-align:center;
+    }
+    
+    h2{
+    color:blue;
+    text-align:left;
+    font-size: 30px;
+    border-left-style:solid;
+    border-bottom-style:solid;
+    border-color:red;
+    }
+    
+    h3{
+    color:blue;
+    font-size: 30px;
+    text-align:left;
+    }
+    
+    p{
+    font-size:22px;
+    color:#fff700;
+    }
+    
+    p1{
+        font-size:22px;
+    color:white;
+    }
+    
+    p2{
+    font-size:22px;
+    background-color:red;
+    color:white;
+    }
+    p3{
+    font-size:22px;
+    background-color:darkred;
+    color:white;
+    }
+    
+    p4{
+    font-size:18px;
+    font-family:Lucida Calligraphy;
+    color: white;
+    background-color:darkgreen;
+    }
+    
+    p5{
+    font-size:18px;
+    color: white;
+    font-family:Lucida Calligraphy;
+    background-color:brown;
+    }
+    
+    p6{
+    font-size:35px;
+    color:#A60168;
+    background-color:#4CF5F1;
+    }
+    
+    ol.1{
+    list-style-type:lower-roman;
+    }
+    
+    ol li{
+    background-color:orange;
+    margin:1;
+    font-size: 25px;
+    color:White;
+    }
+    
+    table, th, td{
+    padding:5px;
+    border: 2px solid rgb(29, 1, 120);
+    border-collapse:collapse;
+    background-color:#980a08;
+    text-align:center;
+    color:#03fb03;
+    font-size:25px;
+    }
+    
